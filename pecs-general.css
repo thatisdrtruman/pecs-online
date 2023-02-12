@@ -67,9 +67,6 @@
     grid-template-columns: auto auto auto auto;
   }
 
-  .welcome-grid-container {
-    grid-template-columns: auto auto auto;
-  }
   
   .center {
     display: flex;
