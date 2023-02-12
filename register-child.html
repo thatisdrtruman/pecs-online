@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>PECS-Online - Login</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="pecs-general.css">
+
+</head>
+<body>
+<div class="header white-text">
+  <img src="images/pecs-online-logo.png" alt="PECS-Online" style="width:10%; height:10%;">
+</div>
+
+<div class="header white-text">
+  <h3>Who is your child</h3>
+</div>
+
+<div class="textboxcontainer">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25 white-text">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75 white-text">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25 white-text">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75 white-text">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="header white-text">
+  <h3>What is the child's PECS Phase?</h3>
+  <label class="container white-text">1 to 3
+    <input type="radio" checked="checked" name="radio">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container white-text">4 to 6
+    <input type="radio" name="radio">
+    <span class="checkmark"></span>
+  </label>
+  <br>
+  </div>
+</div>
+<button class="button button1 white-text">
+  <span>Add</span>
+</button>
+</form>
+<br>
+<div class="grid-container">
+  <a href="child-login.html">
+  <button class="button button3 white-text">
+    <span>Cancel</span>
+  </button>
+  </a>
+</div>
+
+
+<!--
+<div class="footer">
+  <p>Footer</p>
+</div>
+-->
+
+</body>
+</html>
