@@ -216,6 +216,8 @@ input[type=submit]:hover {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
+  -khtml-user-select: none; /* Konqueror HTML */#
+  -moz-user-select: none; /* Firefox */
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
