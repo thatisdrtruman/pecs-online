@@ -212,11 +212,13 @@ input[type=submit]:hover {
   clear: both;
 }
 
+
+
 .prevent-select {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
-  -khtml-user-select: none; /* Konqueror HTML */#
+  -khtml-user-select: none; /* Konqueror HTML */
   -moz-user-select: none; /* Firefox */
 }
 
