@@ -212,7 +212,9 @@ input[type=submit]:hover {
   clear: both;
 }
 
-
+.back-button-header {
+  text-align: right;
+}
 
 .prevent-select {
   -webkit-user-select: none; /* Safari */
@@ -222,9 +224,20 @@ input[type=submit]:hover {
   -moz-user-select: none; /* Firefox */
 }
 
-.symbol-on-bg {
-  width: 80px;
-  height: 100px;
+
+.background{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  margin-top: auto;
+  z-index: 1;
+}
+
+.symbol-on-page{
+  z-index: 2;
+  position: absolute;
+  width: 50px;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
