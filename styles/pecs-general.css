@@ -224,22 +224,39 @@ input[type=submit]:hover {
   -moz-user-select: none; /* Firefox */
 }
 
-
-.background{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  margin-top: auto;
-  z-index: 1;
+.pecs-book-page{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width : 100%;
+  height: 100%;
 }
 
-.symbol-on-page{
-  z-index: 2;
-  position: absolute;
-  width: 50px;
+.activities-bg{ background-image: url("../images/background/activities-bg.JPG")}
+.arts-and-craft-bg{ background-image: url("../images/background/arts-and-craft-bg.JPG")}
+.colours-bg{ background-image: url("../images/background/colours-bg.JPG")}
+.do-and-describe-bg{ background-image: url("../images/background/do-and-describe-bg.JPG")}
+.numbers-bg{ background-image: url("../images/background/numbers-bg.JPG")}
+.shapes-bg{background-image: url("../images/background/shapes-bg.JPG")}
+.toys-bg{background-image: url("../images/background/toys-bg.JPG")}
+.your-things-bg{background-image: url("../images/background/your-things-bg.JPG")}
+.school-bg{background-image: url("../images/background/school-bg.JPG")}
+
+.symbols-in-pecs-book img {
+  width : 30px;
+  height: 30px;
+  max-width: 40px;
+  max-height: 40px;
 }
 
+.category-do-and-describe {background-color: #FFA33C;}
+.category-activities {background-color: #DFDFDF;}
+.category-arts-and-craft {background-color: #8C400C;}
+.category-colours {background-color: #009afa;}
+.category-numbers {background-color: #9249FA;} 
+.category-school {background-color: #1E1E1E;} 
+.category-shapes {background-color: #FFCB44;}
+.category-toys {background-color: #00AF64;}
+.category-your-things {background-color: #F64028;}
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
