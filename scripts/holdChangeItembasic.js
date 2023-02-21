@@ -38,5 +38,5 @@ class PressAndHold{
 const holdButtonChangeItemBasic = document.getElementById("holdButtonChangeItemBasic");
 
 new PressAndHold(holdButtonChangeItemBasic, () => {
-    window.location.href = 'change-your-item(1).html';
+    window.location.href = 'change-your-things(1).html';
 })
