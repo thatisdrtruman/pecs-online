@@ -231,6 +231,13 @@ input[type=submit]:hover {
   height: 100%;
 }
 
+.first-this-then-that-page{
+  display: grid;
+  grid-template-columns: auto;
+  width : 100%;
+  height: 100%;
+}
+
 .activities-bg{ background-image: url("../images/background/activities-bg.JPG")}
 .arts-and-craft-bg{ background-image: url("../images/background/arts-and-craft-bg.JPG")}
 .colours-bg{ background-image: url("../images/background/colours-bg.JPG")}
@@ -240,6 +247,9 @@ input[type=submit]:hover {
 .toys-bg{background-image: url("../images/background/toys-bg.JPG")}
 .your-things-bg{background-image: url("../images/background/your-things-bg.JPG")}
 .school-bg{background-image: url("../images/background/school-bg.JPG")}
+
+.first-bg{background-image: url("../images/background/first-bg.JPG")}
+.then-bg{background-image: url("../images/background/then-bg.JPG")}
 
 .symbols-in-pecs-book img {
   width : 30px;
